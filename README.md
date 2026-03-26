@@ -2,7 +2,7 @@
 
 Revenue and operations forecasting platform built to show how Python services, PostgreSQL modeling, AWS Lambda ingestion, SQL reporting, and dashboard delivery can work together in one production-oriented project.
 
-## Overview
+## Platform Summary
 
 - Uses FastAPI to expose forecast, pipeline, alert, and scenario endpoints for downstream dashboards and planning workflows.
 - Models a PostgreSQL-first warehouse design with fact tables, reference dimensions, analytical views, and sample SQL used for reporting.
@@ -10,13 +10,13 @@ Revenue and operations forecasting platform built to show how Python services, P
 - Ships with a TypeScript dashboard that reads exported snapshot data and renders a control-tower style reporting experience.
 - Generates large synthetic commercial datasets so the repository starts with meaningful outputs instead of empty structure.
 
-## Visual Outputs
+## Control Tower Preview
 
 ![Revenue forecast overview](docs/images/overview.svg)
 
 ![Revenue forecast highlights](docs/images/highlights.svg)
 
-## Stack
+## Technology Mix
 
 - Python for data generation, service logic, export workflows, and Lambda handlers
 - FastAPI for the application layer
@@ -24,7 +24,7 @@ Revenue and operations forecasting platform built to show how Python services, P
 - TypeScript, HTML, and CSS for the dashboard
 - Docker Compose for local PostgreSQL setup
 
-## Project Layout
+## Repository Map
 
 - `src/revenue_forecast_control_tower/` contains the package code, API, service layer, and CLI
 - `sql/` contains PostgreSQL schema, reference seeds, analytical views, and working query examples
@@ -48,7 +48,7 @@ python -m revenue_forecast_control_tower.cli serve --port 8010
 
 Open the dashboard by serving the `dashboard/` directory with any static file server after running `run-all`.
 
-## What Gets Generated
+## Generated Data and Reports
 
 After `run-all`, the project writes:
 
@@ -63,7 +63,7 @@ After `run-all`, the project writes:
 - `artifacts/executive_summary.html`
 - `artifacts/kpi_brief.md`
 
-## API Surface
+## Service Routes
 
 - `GET /`
 - `GET /health`
@@ -73,7 +73,7 @@ After `run-all`, the project writes:
 - `GET /v1/alerts`
 - `GET /v1/scenarios/{scenario_name}`
 
-## PostgreSQL Model
+## Data Model
 
 The SQL layer is designed around a warehouse-style reporting model:
 
@@ -88,7 +88,7 @@ The SQL layer is designed around a warehouse-style reporting model:
 
 The repo includes runnable schema and view definitions plus a sample query pack in `sql/sample_queries.sql`.
 
-## AWS Lambda Coverage
+## Lambda Components
 
 Two Lambda handlers are included:
 
@@ -97,7 +97,7 @@ Two Lambda handlers are included:
 - `alert_router`
   Packages high-risk forecast alerts into notification payloads that could be sent to Slack, email, or incident tooling.
 
-## Dashboard
+## Frontend View
 
 The dashboard is intentionally part of the project rather than an afterthought:
 
@@ -106,7 +106,7 @@ The dashboard is intentionally part of the project rather than an afterthought:
 - `dashboard/index.html` and `dashboard/styles.css` provide the UI shell
 - the dashboard reads `data/processed/dashboard_snapshot.json`
 
-## Business Questions It Answers
+## Planning Questions
 
 - Which regions are most likely to miss forecast despite strong pipeline coverage?
 - Where is pipeline risk concentrated by segment, product family, or account tier?
@@ -114,7 +114,7 @@ The dashboard is intentionally part of the project rather than an afterthought:
 - Which accounts need immediate intervention based on usage decline, support drag, and contract timing?
 - How would booking and conversion improvements change the quarterly forecast outlook?
 
-## Local PostgreSQL Workflow
+## Local Runtime
 
 Start PostgreSQL locally:
 
@@ -124,7 +124,7 @@ docker compose up -d
 
 The container bootstraps the schema from the `sql/` folder. You can then load generated CSVs or connect the FastAPI service to a real database-backed repository.
 
-## Production Path
+## Delivery Path
 
 - Replace synthetic CSV generation with warehouse extracts, CRM snapshots, and product telemetry streams
 - Wire Lambda ingestion to S3, EventBridge, or API Gateway

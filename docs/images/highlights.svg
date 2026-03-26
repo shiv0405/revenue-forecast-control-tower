@@ -3,35 +3,30 @@
   <rect x="40" y="36" width="1200" height="120" rx="28" fill="#ffffff" stroke="#e4e7fb" stroke-width="2"/>
   <text x="74" y="92" fill="#111827" font-size="34" font-family="Segoe UI, Arial, sans-serif" font-weight="700">Regional Forecast Gaps</text>
   <text x="74" y="128" fill="#6b7280" font-size="19" font-family="Segoe UI, Arial, sans-serif">Gap to target from the current regional forecast snapshot</text>
+  <line x1="86" y1="550" x2="1130" y2="550" stroke="#e4e7fb" stroke-width="2"/>
   
-  <text x="120" y="214" fill="#111827" font-size="18" font-family="Segoe UI, Arial, sans-serif">EU</text>
-  <rect x="440" y="192" width="620" height="28" rx="14" fill="#f7f7ff" stroke="#e4e7fb" stroke-width="1"/>
-  <rect x="440" y="192" width="620.0" height="28" rx="14" fill="#8b5cf6"/>
-  <text x="1078" y="214" fill="#4338ca" font-size="18" font-family="Segoe UI, Arial, sans-serif" font-weight="700">$305.7K</text>
+  <rect x="110" y="190.0" width="96" height="360.0" rx="18" fill="#8b5cf6"/>
+  <text x="158.0" y="176.0" text-anchor="middle" fill="#4338ca" font-size="17" font-family="Segoe UI, Arial, sans-serif" font-weight="700">$305.7K</text>
+  <text x="158.0" y="590" text-anchor="middle" fill="#111827" font-size="16" font-family="Segoe UI, Arial, sans-serif">EU</text>
 
-  <text x="120" y="286" fill="#111827" font-size="18" font-family="Segoe UI, Arial, sans-serif">ME</text>
-  <rect x="440" y="264" width="620" height="28" rx="14" fill="#f7f7ff" stroke="#e4e7fb" stroke-width="1"/>
-  <rect x="440" y="264" width="523.5" height="28" rx="14" fill="#8b5cf6"/>
-  <text x="1078" y="286" fill="#4338ca" font-size="18" font-family="Segoe UI, Arial, sans-serif" font-weight="700">$258.1K</text>
+  <rect x="274" y="246.0" width="96" height="304.0" rx="18" fill="#8b5cf6"/>
+  <text x="322.0" y="232.0" text-anchor="middle" fill="#4338ca" font-size="17" font-family="Segoe UI, Arial, sans-serif" font-weight="700">$258.1K</text>
+  <text x="322.0" y="590" text-anchor="middle" fill="#111827" font-size="16" font-family="Segoe UI, Arial, sans-serif">ME</text>
 
-  <text x="120" y="358" fill="#111827" font-size="18" font-family="Segoe UI, Arial, sans-serif">AP</text>
-  <rect x="440" y="336" width="620" height="28" rx="14" fill="#f7f7ff" stroke="#e4e7fb" stroke-width="1"/>
-  <rect x="440" y="336" width="318.3" height="28" rx="14" fill="#8b5cf6"/>
-  <text x="1078" y="358" fill="#4338ca" font-size="18" font-family="Segoe UI, Arial, sans-serif" font-weight="700">$156.9K</text>
+  <rect x="438" y="365.2" width="96" height="184.8" rx="18" fill="#8b5cf6"/>
+  <text x="486.0" y="351.2" text-anchor="middle" fill="#4338ca" font-size="17" font-family="Segoe UI, Arial, sans-serif" font-weight="700">$156.9K</text>
+  <text x="486.0" y="590" text-anchor="middle" fill="#111827" font-size="16" font-family="Segoe UI, Arial, sans-serif">AP</text>
 
-  <text x="120" y="430" fill="#111827" font-size="18" font-family="Segoe UI, Arial, sans-serif">AF</text>
-  <rect x="440" y="408" width="620" height="28" rx="14" fill="#f7f7ff" stroke="#e4e7fb" stroke-width="1"/>
-  <rect x="440" y="408" width="255.0" height="28" rx="14" fill="#8b5cf6"/>
-  <text x="1078" y="430" fill="#4338ca" font-size="18" font-family="Segoe UI, Arial, sans-serif" font-weight="700">$125.7K</text>
+  <rect x="602" y="401.9" width="96" height="148.1" rx="18" fill="#8b5cf6"/>
+  <text x="650.0" y="387.9" text-anchor="middle" fill="#4338ca" font-size="17" font-family="Segoe UI, Arial, sans-serif" font-weight="700">$125.7K</text>
+  <text x="650.0" y="590" text-anchor="middle" fill="#111827" font-size="16" font-family="Segoe UI, Arial, sans-serif">AF</text>
 
-  <text x="120" y="502" fill="#111827" font-size="18" font-family="Segoe UI, Arial, sans-serif">NA</text>
-  <rect x="440" y="480" width="620" height="28" rx="14" fill="#f7f7ff" stroke="#e4e7fb" stroke-width="1"/>
-  <rect x="440" y="480" width="253.6" height="28" rx="14" fill="#8b5cf6"/>
-  <text x="1078" y="502" fill="#4338ca" font-size="18" font-family="Segoe UI, Arial, sans-serif" font-weight="700">$125.0K</text>
+  <rect x="766" y="402.8" width="96" height="147.2" rx="18" fill="#8b5cf6"/>
+  <text x="814.0" y="388.8" text-anchor="middle" fill="#4338ca" font-size="17" font-family="Segoe UI, Arial, sans-serif" font-weight="700">$125.0K</text>
+  <text x="814.0" y="590" text-anchor="middle" fill="#111827" font-size="16" font-family="Segoe UI, Arial, sans-serif">NA</text>
 
-  <text x="120" y="574" fill="#111827" font-size="18" font-family="Segoe UI, Arial, sans-serif">LA</text>
-  <rect x="440" y="552" width="620" height="28" rx="14" fill="#f7f7ff" stroke="#e4e7fb" stroke-width="1"/>
-  <rect x="440" y="552" width="223.1" height="28" rx="14" fill="#8b5cf6"/>
-  <text x="1078" y="574" fill="#4338ca" font-size="18" font-family="Segoe UI, Arial, sans-serif" font-weight="700">$110.0K</text>
+  <rect x="930" y="420.4" width="96" height="129.6" rx="18" fill="#8b5cf6"/>
+  <text x="978.0" y="406.4" text-anchor="middle" fill="#4338ca" font-size="17" font-family="Segoe UI, Arial, sans-serif" font-weight="700">$110.0K</text>
+  <text x="978.0" y="590" text-anchor="middle" fill="#111827" font-size="16" font-family="Segoe UI, Arial, sans-serif">LA</text>
 
 </svg>

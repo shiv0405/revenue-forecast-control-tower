@@ -1,32 +1,32 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1280" height="760" viewBox="0 0 1280 760" role="img" aria-label="Revenue Forecast Control Tower">
   <rect width="1280" height="760" fill="#f7f7ff"/>
-  <rect x="40" y="36" width="1200" height="150" rx="28" fill="#4338ca"/>
-  <circle cx="1140" cy="92" r="54" fill="#8b5cf6" opacity="0.18"/>
-  <circle cx="1188" cy="146" r="34" fill="#ea580c" opacity="0.18"/>
-  <text x="72" y="92" fill="#ffffff" font-size="36" font-family="Segoe UI, Arial, sans-serif" font-weight="700">Revenue Forecast Control Tower</text>
-  <text x="72" y="132" fill="#e5f2ff" font-size="19" font-family="Segoe UI, Arial, sans-serif">FastAPI, warehouse modeling, and dashboard outputs for commercial forecast monitoring.</text>
+  <rect x="40" y="40" width="420" height="320" rx="32" fill="#4338ca"/>
+  <circle cx="350" cy="110" r="58" fill="#8b5cf6" opacity="0.16"/>
+  <circle cx="402" cy="156" r="36" fill="#ea580c" opacity="0.16"/>
+  <text x="74" y="108" fill="#ffffff" font-size="34" font-family="Segoe UI, Arial, sans-serif" font-weight="700">Revenue Forecast Control Tower</text>
+  <text x="74" y="154" text-anchor="start" fill="#e5f2ff" font-size="19" font-family="Segoe UI, Arial, sans-serif">FastAPI, warehouse modeling, and</text><text x="74" y="182" text-anchor="start" fill="#e5f2ff" font-size="19" font-family="Segoe UI, Arial, sans-serif">dashboard outputs for commercial</text><text x="74" y="210" text-anchor="start" fill="#e5f2ff" font-size="19" font-family="Segoe UI, Arial, sans-serif">forecast monitoring.</text>
   
-  <rect x="56" y="214" width="260" height="126" rx="24" fill="#ffffff" stroke="#e4e7fb" stroke-width="2"/>
-  <text x="84" y="256" fill="#6b7280" font-size="18" font-family="Segoe UI, Arial, sans-serif">Quarter bookings</text>
-  <text x="84" y="296" fill="#111827" font-size="34" font-family="Segoe UI, Arial, sans-serif" font-weight="700">$10.4M</text>
-  <text x="84" y="322" fill="#4338ca" font-size="15" font-family="Segoe UI, Arial, sans-serif">Current-quarter actuals</text>
+  <rect x="516" y="68" width="302" height="126" rx="24" fill="#ffffff" stroke="#e4e7fb" stroke-width="2"/>
+  <text x="544" y="110" fill="#6b7280" font-size="18" font-family="Segoe UI, Arial, sans-serif">Quarter bookings</text>
+  <text x="544" y="150" fill="#111827" font-size="34" font-family="Segoe UI, Arial, sans-serif" font-weight="700">$10.4M</text>
+  <text x="544" y="176" fill="#4338ca" font-size="15" font-family="Segoe UI, Arial, sans-serif">Current-quarter actuals</text>
 
-  <rect x="344" y="214" width="260" height="126" rx="24" fill="#ffffff" stroke="#e4e7fb" stroke-width="2"/>
-  <text x="372" y="256" fill="#6b7280" font-size="18" font-family="Segoe UI, Arial, sans-serif">Attainment</text>
-  <text x="372" y="296" fill="#111827" font-size="34" font-family="Segoe UI, Arial, sans-serif" font-weight="700">76.0%</text>
-  <text x="372" y="322" fill="#4338ca" font-size="15" font-family="Segoe UI, Arial, sans-serif">Against quarter target</text>
+  <rect x="862" y="68" width="302" height="126" rx="24" fill="#ffffff" stroke="#e4e7fb" stroke-width="2"/>
+  <text x="890" y="110" fill="#6b7280" font-size="18" font-family="Segoe UI, Arial, sans-serif">Attainment</text>
+  <text x="890" y="150" fill="#111827" font-size="34" font-family="Segoe UI, Arial, sans-serif" font-weight="700">76.0%</text>
+  <text x="890" y="176" fill="#4338ca" font-size="15" font-family="Segoe UI, Arial, sans-serif">Against quarter target</text>
 
-  <rect x="632" y="214" width="260" height="126" rx="24" fill="#ffffff" stroke="#e4e7fb" stroke-width="2"/>
-  <text x="660" y="256" fill="#6b7280" font-size="18" font-family="Segoe UI, Arial, sans-serif">Weighted pipeline</text>
-  <text x="660" y="296" fill="#111827" font-size="34" font-family="Segoe UI, Arial, sans-serif" font-weight="700">$27.3M</text>
-  <text x="660" y="322" fill="#4338ca" font-size="15" font-family="Segoe UI, Arial, sans-serif">Pipeline adjusted by win probability</text>
+  <rect x="516" y="226" width="302" height="126" rx="24" fill="#ffffff" stroke="#e4e7fb" stroke-width="2"/>
+  <text x="544" y="268" fill="#6b7280" font-size="18" font-family="Segoe UI, Arial, sans-serif">Weighted pipeline</text>
+  <text x="544" y="308" fill="#111827" font-size="34" font-family="Segoe UI, Arial, sans-serif" font-weight="700">$27.3M</text>
+  <text x="544" y="334" fill="#4338ca" font-size="15" font-family="Segoe UI, Arial, sans-serif">Pipeline adjusted by win probability</text>
 
-  <rect x="920" y="214" width="260" height="126" rx="24" fill="#ffffff" stroke="#e4e7fb" stroke-width="2"/>
-  <text x="948" y="256" fill="#6b7280" font-size="18" font-family="Segoe UI, Arial, sans-serif">Forecast gap</text>
-  <text x="948" y="296" fill="#111827" font-size="34" font-family="Segoe UI, Arial, sans-serif" font-weight="700">$1.1M</text>
-  <text x="948" y="322" fill="#4338ca" font-size="15" font-family="Segoe UI, Arial, sans-serif">Shortfall versus projected target</text>
+  <rect x="862" y="226" width="302" height="126" rx="24" fill="#ffffff" stroke="#e4e7fb" stroke-width="2"/>
+  <text x="890" y="268" fill="#6b7280" font-size="18" font-family="Segoe UI, Arial, sans-serif">Forecast gap</text>
+  <text x="890" y="308" fill="#111827" font-size="34" font-family="Segoe UI, Arial, sans-serif" font-weight="700">$1.1M</text>
+  <text x="890" y="334" fill="#4338ca" font-size="15" font-family="Segoe UI, Arial, sans-serif">Shortfall versus projected target</text>
 
-  <rect x="56" y="384" width="1168" height="316" rx="28" fill="#ffffff" stroke="#e4e7fb" stroke-width="2"/>
-  <text x="84" y="438" fill="#111827" font-size="24" font-family="Segoe UI, Arial, sans-serif" font-weight="700">Current outcome</text>
-  <text x="84" y="482" fill="#6b7280" font-size="20" font-family="Segoe UI, Arial, sans-serif">EU has the largest modeled forecast gap at $305.7K, while projected attainment reaches 85.7%.</text>
+  <rect x="40" y="396" width="1200" height="300" rx="28" fill="#ffffff" stroke="#e4e7fb" stroke-width="2"/>
+  <text x="76" y="450" fill="#111827" font-size="24" font-family="Segoe UI, Arial, sans-serif" font-weight="700">Forecast snapshot</text>
+  <text x="76" y="494" text-anchor="start" fill="#6b7280" font-size="20" font-family="Segoe UI, Arial, sans-serif">EU has the largest modeled forecast gap at $305.7K, while projected attainment reaches 85.7%.</text>
 </svg>
