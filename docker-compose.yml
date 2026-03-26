@@ -1,0 +1,18 @@
+version: "3.9"
+
+services:
+  postgres:
+    image: postgres:16
+    container_name: revenue-forecast-control-tower-postgres
+    environment:
+      POSTGRES_DB: forecast_ops
+      POSTGRES_USER: forecast_user
+      POSTGRES_PASSWORD: forecast_password
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+      - ./sql:/docker-entrypoint-initdb.d
+
+volumes:
+  postgres-data:

@@ -1,0 +1,344 @@
+{
+  "title": "Revenue Forecast Control Tower",
+  "summary": {
+    "accounts_in_scope": 240,
+    "current_quarter_bookings_usd": 10358305.65,
+    "quarterly_target_usd": 13625346.51,
+    "attainment_pct": 76.0,
+    "weighted_pipeline_usd": 27318768.12,
+    "projected_renewal_risk_usd": 34741211.0,
+    "forecast_gap_usd": 1081539.41
+  },
+  "regions": [
+    {
+      "region_code": "EU",
+      "bookings_usd": 1624984.02,
+      "target_usd": 2131599.87,
+      "weighted_pipeline_usd": 2511559.84,
+      "attainment_pct": 76.2,
+      "projected_attainment_pct": 85.7,
+      "forecast_gap_usd": 305691.06
+    },
+    {
+      "region_code": "ME",
+      "bookings_usd": 1477119.17,
+      "target_usd": 1910588.94,
+      "weighted_pipeline_usd": 2191724.03,
+      "attainment_pct": 77.3,
+      "projected_attainment_pct": 86.5,
+      "forecast_gap_usd": 258131.85
+    },
+    {
+      "region_code": "AP",
+      "bookings_usd": 803500.5,
+      "target_usd": 1054111.68,
+      "weighted_pipeline_usd": 1170914.28,
+      "attainment_pct": 76.2,
+      "projected_attainment_pct": 85.1,
+      "forecast_gap_usd": 156938.04
+    },
+    {
+      "region_code": "AF",
+      "bookings_usd": 694770.77,
+      "target_usd": 897948.36,
+      "weighted_pipeline_usd": 968014.08,
+      "attainment_pct": 77.4,
+      "projected_attainment_pct": 86.0,
+      "forecast_gap_usd": 125736.46
+    },
+    {
+      "region_code": "NA",
+      "bookings_usd": 2873730.44,
+      "target_usd": 3811983.39,
+      "weighted_pipeline_usd": 10165336.06,
+      "attainment_pct": 75.4,
+      "projected_attainment_pct": 96.7,
+      "forecast_gap_usd": 125026.07
+    },
+    {
+      "region_code": "LA",
+      "bookings_usd": 2884200.75,
+      "target_usd": 3819114.27,
+      "weighted_pipeline_usd": 10311219.83,
+      "attainment_pct": 75.5,
+      "projected_attainment_pct": 97.1,
+      "forecast_gap_usd": 110015.93
+    }
+  ],
+  "pipeline_risk": [
+    {
+      "account_id": "ACC-1198",
+      "region_code": "NA",
+      "weighted_pipeline_usd": 177409.94,
+      "avg_commit_probability": 0.299,
+      "high_risk_flags": 4,
+      "account_name": "NA-Portfolio-199",
+      "segment": "enterprise",
+      "product_family": "core-monitoring",
+      "contract_value_usd": 228138.0,
+      "renewal_date": "2027-03-28",
+      "active_users": 693.0,
+      "support_tickets": 21.0,
+      "satisfaction_score": 75.27,
+      "risk_score": 94.3,
+      "recommended_action": "Escalate commercial review and tighten close plan"
+    },
+    {
+      "account_id": "ACC-1201",
+      "region_code": "LA",
+      "weighted_pipeline_usd": 262582.33999999997,
+      "avg_commit_probability": 0.48124999999999996,
+      "high_risk_flags": 3,
+      "account_name": "LA-Portfolio-202",
+      "segment": "enterprise",
+      "product_family": "core-monitoring",
+      "contract_value_usd": 433610.0,
+      "renewal_date": "2027-02-12",
+      "active_users": 701.0,
+      "support_tickets": 35.0,
+      "satisfaction_score": 87.25,
+      "risk_score": 78.6,
+      "recommended_action": "Escalate commercial review and tighten close plan"
+    },
+    {
+      "account_id": "ACC-1120",
+      "region_code": "NA",
+      "weighted_pipeline_usd": 389237.1,
+      "avg_commit_probability": 0.40875,
+      "high_risk_flags": 3,
+      "account_name": "NA-Portfolio-121",
+      "segment": "enterprise",
+      "product_family": "core-monitoring",
+      "contract_value_usd": 551068.0,
+      "renewal_date": "2027-01-08",
+      "active_users": 508.0,
+      "support_tickets": 19.0,
+      "satisfaction_score": 70.54,
+      "risk_score": 78.3,
+      "recommended_action": "Escalate commercial review and tighten close plan"
+    },
+    {
+      "account_id": "ACC-1117",
+      "region_code": "LA",
+      "weighted_pipeline_usd": 390074.57,
+      "avg_commit_probability": 0.496,
+      "high_risk_flags": 3,
+      "account_name": "LA-Portfolio-118",
+      "segment": "enterprise",
+      "product_family": "core-monitoring",
+      "contract_value_usd": 584920.0,
+      "renewal_date": "2027-05-14",
+      "active_users": 554.0,
+      "support_tickets": 22.0,
+      "satisfaction_score": 74.52,
+      "risk_score": 75.1,
+      "recommended_action": "Escalate commercial review and tighten close plan"
+    },
+    {
+      "account_id": "ACC-1106",
+      "region_code": "ME",
+      "weighted_pipeline_usd": 60136.63,
+      "avg_commit_probability": 0.266,
+      "high_risk_flags": 3,
+      "account_name": "ME-Portfolio-107",
+      "segment": "mid-market",
+      "product_family": "automation-suite",
+      "contract_value_usd": 127724.0,
+      "renewal_date": "2027-03-29",
+      "active_users": 246.0,
+      "support_tickets": 9.0,
+      "satisfaction_score": 84.4,
+      "risk_score": 74.7,
+      "recommended_action": "Escalate commercial review and tighten close plan"
+    },
+    {
+      "account_id": "ACC-1160",
+      "region_code": "ME",
+      "weighted_pipeline_usd": 39188.71,
+      "avg_commit_probability": 0.2806666666666667,
+      "high_risk_flags": 3,
+      "account_name": "ME-Portfolio-161",
+      "segment": "mid-market",
+      "product_family": "automation-suite",
+      "contract_value_usd": 115136.0,
+      "renewal_date": "2027-01-21",
+      "active_users": 157.0,
+      "support_tickets": 3.0,
+      "satisfaction_score": 74.41,
+      "risk_score": 74.0,
+      "recommended_action": "Escalate commercial review and tighten close plan"
+    },
+    {
+      "account_id": "ACC-1210",
+      "region_code": "NA",
+      "weighted_pipeline_usd": 229508.47999999998,
+      "avg_commit_probability": 0.5495,
+      "high_risk_flags": 3,
+      "account_name": "NA-Portfolio-211",
+      "segment": "enterprise",
+      "product_family": "core-monitoring",
+      "contract_value_usd": 606729.0,
+      "renewal_date": "2026-06-07",
+      "active_users": 670.0,
+      "support_tickets": 22.0,
+      "satisfaction_score": 71.3,
+      "risk_score": 73.9,
+      "recommended_action": "Escalate commercial review and tighten close plan"
+    },
+    {
+      "account_id": "ACC-1003",
+      "region_code": "LA",
+      "weighted_pipeline_usd": 368642.72,
+      "avg_commit_probability": 0.425,
+      "high_risk_flags": 3,
+      "account_name": "LA-Portfolio-004",
+      "segment": "enterprise",
+      "product_family": "core-monitoring",
+      "contract_value_usd": 460370.0,
+      "renewal_date": "2026-08-12",
+      "active_users": 428.0,
+      "support_tickets": 17.0,
+      "satisfaction_score": 88.16,
+      "risk_score": 71.3,
+      "recommended_action": "Escalate commercial review and tighten close plan"
+    },
+    {
+      "account_id": "ACC-1000",
+      "region_code": "NA",
+      "weighted_pipeline_usd": 252149.66999999998,
+      "avg_commit_probability": 0.485,
+      "high_risk_flags": 3,
+      "account_name": "NA-Portfolio-001",
+      "segment": "enterprise",
+      "product_family": "core-monitoring",
+      "contract_value_usd": 483999.0,
+      "renewal_date": "2027-02-18",
+      "active_users": 426.0,
+      "support_tickets": 17.0,
+      "satisfaction_score": 79.98,
+      "risk_score": 71.3,
+      "recommended_action": "Escalate commercial review and tighten close plan"
+    },
+    {
+      "account_id": "ACC-1171",
+      "region_code": "LA",
+      "weighted_pipeline_usd": 275156.82,
+      "avg_commit_probability": 0.32975,
+      "high_risk_flags": 2,
+      "account_name": "LA-Portfolio-172",
+      "segment": "enterprise",
+      "product_family": "core-monitoring",
+      "contract_value_usd": 475928.0,
+      "renewal_date": "2027-05-21",
+      "active_users": 712.0,
+      "support_tickets": 22.0,
+      "satisfaction_score": 69.82,
+      "risk_score": 71.2,
+      "recommended_action": "Escalate commercial review and tighten close plan"
+    },
+    {
+      "account_id": "ACC-1031",
+      "region_code": "EU",
+      "weighted_pipeline_usd": 108864.98999999999,
+      "avg_commit_probability": 0.38533333333333336,
+      "high_risk_flags": 3,
+      "account_name": "EU-Portfolio-032",
+      "segment": "mid-market",
+      "product_family": "automation-suite",
+      "contract_value_usd": 215841.0,
+      "renewal_date": "2027-03-19",
+      "active_users": 229.0,
+      "support_tickets": 5.0,
+      "satisfaction_score": 78.63,
+      "risk_score": 69.6,
+      "recommended_action": "Escalate commercial review and tighten close plan"
+    },
+    {
+      "account_id": "ACC-1183",
+      "region_code": "LA",
+      "weighted_pipeline_usd": 129346.04000000001,
+      "avg_commit_probability": 0.44875,
+      "high_risk_flags": 2,
+      "account_name": "LA-Portfolio-184",
+      "segment": "enterprise",
+      "product_family": "core-monitoring",
+      "contract_value_usd": 181648.0,
+      "renewal_date": "2027-05-02",
+      "active_users": 712.0,
+      "support_tickets": 32.0,
+      "satisfaction_score": 77.31,
+      "risk_score": 69.3,
+      "recommended_action": "Escalate commercial review and tighten close plan"
+    }
+  ],
+  "alerts": [
+    {
+      "severity": "high",
+      "account_id": "portfolio",
+      "region_code": "all",
+      "message": "Current-quarter forecast gap remains $1,081,539.",
+      "recommended_action": "Review conversion assumptions, renewal slippage, and regional recovery plans."
+    },
+    {
+      "severity": "high",
+      "account_id": "ACC-1198",
+      "region_code": "NA",
+      "message": "NA-Portfolio-199 is carrying elevated forecast risk with score 94.3.",
+      "recommended_action": "Escalate commercial review and tighten close plan"
+    },
+    {
+      "severity": "high",
+      "account_id": "ACC-1201",
+      "region_code": "LA",
+      "message": "LA-Portfolio-202 is carrying elevated forecast risk with score 78.6.",
+      "recommended_action": "Escalate commercial review and tighten close plan"
+    },
+    {
+      "severity": "high",
+      "account_id": "ACC-1120",
+      "region_code": "NA",
+      "message": "NA-Portfolio-121 is carrying elevated forecast risk with score 78.3.",
+      "recommended_action": "Escalate commercial review and tighten close plan"
+    },
+    {
+      "severity": "high",
+      "account_id": "ACC-1117",
+      "region_code": "LA",
+      "message": "LA-Portfolio-118 is carrying elevated forecast risk with score 75.1.",
+      "recommended_action": "Escalate commercial review and tighten close plan"
+    },
+    {
+      "severity": "high",
+      "account_id": "ACC-1106",
+      "region_code": "ME",
+      "message": "ME-Portfolio-107 is carrying elevated forecast risk with score 74.7.",
+      "recommended_action": "Escalate commercial review and tighten close plan"
+    }
+  ],
+  "scenarios": [
+    {
+      "scenario_name": "baseline_plus_conversion",
+      "revenue_uplift_usd": 819563.04,
+      "attainment_pct": 98.1,
+      "notes": [
+        "Assumes a modest lift in conversion quality across late-stage pipeline."
+      ]
+    },
+    {
+      "scenario_name": "renewal_recovery",
+      "revenue_uplift_usd": 2779296.88,
+      "attainment_pct": 112.5,
+      "notes": [
+        "Assumes partial recovery of at-risk renewals through intervention plans."
+      ]
+    },
+    {
+      "scenario_name": "combined_play",
+      "revenue_uplift_usd": 3598859.92,
+      "attainment_pct": 118.5,
+      "notes": [
+        "Combines improved conversion execution with renewal recovery activity."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Revenue Forecast Control Tower</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <div class="shell">
+    <header class="hero">
+      <div>
+        <p class="eyebrow">Commercial Planning Platform</p>
+        <h1>Revenue Forecast Control Tower</h1>
+        <p class="copy">FastAPI, PostgreSQL, Lambda, and dashboard-driven planning view for regional forecast performance, pipeline risk, and scenario modeling.</p>
+      </div>
+      <div class="status" id="status">Loading snapshot...</div>
+    </header>
+
+    <section class="metrics" id="metrics"></section>
+
+    <section class="grid">
+      <article class="panel">
+        <h2>Regional Outlook</h2>
+        <div id="regions"></div>
+      </article>
+      <article class="panel">
+        <h2>Top Alerts</h2>
+        <div id="alerts"></div>
+      </article>
+    </section>
+
+    <section class="panel">
+      <h2>Account Risk Queue</h2>
+      <div id="pipeline"></div>
+    </section>
+
+    <section class="panel">
+      <h2>Scenario Modeling</h2>
+      <div id="scenarios"></div>
+    </section>
+  </div>
+  <script type="module" src="./dist/main.js"></script>
+</body>
+</html>
