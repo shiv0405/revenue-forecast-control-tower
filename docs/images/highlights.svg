@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="760" viewBox="0 0 1280 760" role="img" aria-label="Regional Forecast Gaps">
+  <rect width="1280" height="760" fill="#f7f7ff"/>
+  <rect x="40" y="36" width="1200" height="120" rx="28" fill="#ffffff" stroke="#e4e7fb" stroke-width="2"/>
+  <text x="74" y="92" fill="#111827" font-size="34" font-family="Segoe UI, Arial, sans-serif" font-weight="700">Regional Forecast Gaps</text>
+  <text x="74" y="128" fill="#6b7280" font-size="19" font-family="Segoe UI, Arial, sans-serif">Gap to target from the current regional forecast snapshot</text>
+  
+  <text x="120" y="214" fill="#111827" font-size="18" font-family="Segoe UI, Arial, sans-serif">EU</text>
+  <rect x="440" y="192" width="620" height="28" rx="14" fill="#f7f7ff" stroke="#e4e7fb" stroke-width="1"/>
+  <rect x="440" y="192" width="620.0" height="28" rx="14" fill="#8b5cf6"/>
+  <text x="1078" y="214" fill="#4338ca" font-size="18" font-family="Segoe UI, Arial, sans-serif" font-weight="700">$305.7K</text>
+
+  <text x="120" y="286" fill="#111827" font-size="18" font-family="Segoe UI, Arial, sans-serif">ME</text>
+  <rect x="440" y="264" width="620" height="28" rx="14" fill="#f7f7ff" stroke="#e4e7fb" stroke-width="1"/>
+  <rect x="440" y="264" width="523.5" height="28" rx="14" fill="#8b5cf6"/>
+  <text x="1078" y="286" fill="#4338ca" font-size="18" font-family="Segoe UI, Arial, sans-serif" font-weight="700">$258.1K</text>
+
+  <text x="120" y="358" fill="#111827" font-size="18" font-family="Segoe UI, Arial, sans-serif">AP</text>
+  <rect x="440" y="336" width="620" height="28" rx="14" fill="#f7f7ff" stroke="#e4e7fb" stroke-width="1"/>
+  <rect x="440" y="336" width="318.3" height="28" rx="14" fill="#8b5cf6"/>
+  <text x="1078" y="358" fill="#4338ca" font-size="18" font-family="Segoe UI, Arial, sans-serif" font-weight="700">$156.9K</text>
+
+  <text x="120" y="430" fill="#111827" font-size="18" font-family="Segoe UI, Arial, sans-serif">AF</text>
+  <rect x="440" y="408" width="620" height="28" rx="14" fill="#f7f7ff" stroke="#e4e7fb" stroke-width="1"/>
+  <rect x="440" y="408" width="255.0" height="28" rx="14" fill="#8b5cf6"/>
+  <text x="1078" y="430" fill="#4338ca" font-size="18" font-family="Segoe UI, Arial, sans-serif" font-weight="700">$125.7K</text>
+
+  <text x="120" y="502" fill="#111827" font-size="18" font-family="Segoe UI, Arial, sans-serif">NA</text>
+  <rect x="440" y="480" width="620" height="28" rx="14" fill="#f7f7ff" stroke="#e4e7fb" stroke-width="1"/>
+  <rect x="440" y="480" width="253.6" height="28" rx="14" fill="#8b5cf6"/>
+  <text x="1078" y="502" fill="#4338ca" font-size="18" font-family="Segoe UI, Arial, sans-serif" font-weight="700">$125.0K</text>
+
+  <text x="120" y="574" fill="#111827" font-size="18" font-family="Segoe UI, Arial, sans-serif">LA</text>
+  <rect x="440" y="552" width="620" height="28" rx="14" fill="#f7f7ff" stroke="#e4e7fb" stroke-width="1"/>
+  <rect x="440" y="552" width="223.1" height="28" rx="14" fill="#8b5cf6"/>
+  <text x="1078" y="574" fill="#4338ca" font-size="18" font-family="Segoe UI, Arial, sans-serif" font-weight="700">$110.0K</text>
+
+  <rect x="74" y="646" width="1132" height="72" rx="24" fill="#ffffff" stroke="#e4e7fb" stroke-width="1.5"/>
+  <text x="100" y="692" fill="#6b7280" font-size="18" font-family="Segoe UI, Arial, sans-serif">Regions with the largest gap need the most coverage improvement or conversion support in the planning cycle.</text>
+</svg>

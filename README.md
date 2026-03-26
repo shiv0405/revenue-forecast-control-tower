@@ -10,6 +10,12 @@ Revenue and operations forecasting platform built to show how Python services, P
 - Ships with a TypeScript dashboard that reads exported snapshot data and renders a control-tower style reporting experience.
 - Generates large synthetic commercial datasets so the repository starts with meaningful outputs instead of empty structure.
 
+## Visual Outputs
+
+![Revenue forecast overview](docs/images/overview.svg)
+
+![Revenue forecast highlights](docs/images/highlights.svg)
+
 ## Stack
 
 - Python for data generation, service logic, export workflows, and Lambda handlers
